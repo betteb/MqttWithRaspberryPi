@@ -9,8 +9,6 @@ Im Hosts(system32/drivers/etc) file den Pi eintragen:
 # .Net Core App 3.1
 MQTT Lib: M2Mqtt 4.3.0 Library
 
-[draft example on github](https://github.com/betteb/MqttWithRaspberryPi.git)
-
 Die Appliaktion sollte jetzt auch auf dem VS aus gestartet werden können und beim Broker auf dem Pi registrieren auf der topic mqtt_beat.
 Wird eine Nachricht verschickt an mqtt_beat sollte diese auch im Debug Fenster im VS sichtbar sein
 
